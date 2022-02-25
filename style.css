@@ -1,0 +1,94 @@
+
+.heed {
+    text-align: center;
+}
+
+#dark {
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 122, 243);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 122, 243);
+    padding-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.darkmood {
+    color: white !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+/* task one */
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.accordion {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.accordion::after{
+    content: "+";
+    font-size: 19px;
+    float: right;
+}
+
+.active::after{
+    content: "-";
+}
+
+
+
+.desc {
+    padding: 0px 15px;
+    height: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    
+}
+
+p {
+    background-color: rgb(31, 32, 32);
+    color: white;
+} 
+
+
+/* calc */
+input {
+    background-color: thistle;
+    color: #000000;
+    width: 50px;
+    font-size: 20px;
+}
+
+
+
+.thumbnail img {
+    width: 100px;
+    border: 1px solid rgb(255, 7, 7);
+    margin: 20px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.preview img {
+    border: 1px solid black;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}

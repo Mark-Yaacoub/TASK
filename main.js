@@ -39,14 +39,14 @@ let body = document.querySelector('body');
 button.onclick = function () {
 
     if (body.classList.toggle('darkmood')) {
-        body.classList.contains('darkmood')
+       
         this.innerText = 'Light Mood'
-        img1.classList.toggle('noone')
+        
 
 
 
     } else {
-        body.classList.contains('darkmood')
+        body.classList.remove('darkmood')
         this.innerText = 'Dark Mood'
 
 
